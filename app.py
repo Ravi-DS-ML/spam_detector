@@ -55,3 +55,7 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
+st.header("METRICS")
+st.write("Accuracy: 97%")
+st.write("Precision: 1.0")
